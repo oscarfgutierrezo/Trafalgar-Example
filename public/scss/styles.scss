@@ -1,0 +1,43 @@
+$font-family-sans-serif: 'Mulish', sans-serif;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1217px
+);
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+
+$primary: #458FF6;
+$secondary: #7D7987;
+
+$btn-padding-x-lg: 2.5rem;
+$btn-padding-y-lg: 0.9rem;
+$btn-font-size-lg: 1.125rem;
+
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&family=Mulish:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.header .navbar-nav {
+    font-size: 1.125rem;
+}
+
+.home__img-decoration {
+    z-index: -1;
+}
+
+.home__info p {
+    font-size: 1.3125rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
