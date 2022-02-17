@@ -41,7 +41,7 @@
     </header>
     <main>
         <section class="home" id="home">
-            <img class="home__img-decoration position-absolute z-index" src="./public/images/home-decoration.svg" alt="Imagen con puntos para decorar">
+            <img class="home__img-decoration position-absolute" src="./public/images/home-decoration.svg" alt="Imagen con puntos para decorar">
             <div class="home__container container my-3 py-2 mb-xxl-5 pb-xxl-5">
                 <div class="row">
                     <div class="home__img col-md-6 col-lg-7 order-md-2 d-flex">
@@ -61,9 +61,11 @@
                 <hr class="border border-dark opacity-100 mx-auto" style="width: 3.5rem;">
                 <p class="text-secondary col-10 mx-auto p-3 ">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             </div>
-            <div class="find-doctor__cards container pt-3 pt-xxl-5">
+            <div class="find-doctor__cards container py-3 py-xxl-5 position-relative">
+                <img class="find-doctor__form-decoration position-absolute opacity-50" src="./public/images/cards-decoration.svg" alt="figura decorativa">
+                <img class="find-doctor__form-decoration-02 position-absolute" src="./public/images/cards-decoration-points.svg" alt="figura decorativa">
                 <div class="row gap-3 gap-xxl-5 justify-content-center">
-                    <div class="col-auto p-0-auto p-0">
+                    <div class="col-auto p-0">
                         <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/search-doctor.svg" class="px-2 mb-4" style="height: 90px;" alt="Imagen de lupa">
@@ -74,7 +76,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto p-0-auto p-0">
+                    <div class="col-auto p-0">
                         <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/online-pharmacy.svg" class="px-2 mb-4" style="height: 85px;" alt="Imagen de lupa">
@@ -85,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto p-0-auto p-0">
+                    <div class="col-auto p-0">
                         <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/consultation.svg" class="px-2 mb-4" style="height: 95px;" alt="Imagen de lupa">
@@ -96,7 +98,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto p-0-auto p-0">
+                    <div class="col-auto p-0">
                         <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/details-info.svg" class="px-2 mb-4" style="height: 95px;" alt="Imagen de lupa">
@@ -107,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto p-0-auto p-0">
+                    <div class="col-auto p-0">
                         <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-center" style="height: 50%;">
                                 <img src="./public/images/emergency-care.svg" class="px-2 mb-4" style="height: 71px;" alt="Imagen de lupa">
@@ -118,7 +120,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto p-0-auto p-0">
+                    <div class="col-auto p-0">
                         <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/tracking.svg" class="px-2 mb-4" style="height: 95px;" alt="Imagen de lupa">
@@ -130,6 +132,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="find-doctor__button d-flex">
+                <button class="btn btn-lg btn-outline-primary rounded-pill fw-bold my-3 mx-auto">Learn more</button>
             </div>
         </section>
     </main> 

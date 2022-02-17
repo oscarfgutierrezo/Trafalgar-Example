@@ -17,13 +17,15 @@ $h5-font-size: $font-size-base * 1.25;
 
 $primary: #458FF6;
 $secondary: #7D7987;
+$enable-shadows: true;
 
 $btn-padding-x-lg: 2.5rem;
 $btn-padding-y-lg: 0.9rem;
 $btn-font-size-lg: 1.125rem;
 
-$card-border-radius: 1.25rem; 
-
+$card-border-radius: 1.25rem;
+$card-border-width: 0; 
+$card-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 
 @import "../libs/bootstrap/scss/bootstrap.scss";
 
@@ -48,6 +50,20 @@ $card-border-radius: 1.25rem;
     font-weight: 300;
 }
 
+.find-doctor__form-decoration {
+    left: -192px;
+    top: 0px;
+}
+
+.find-doctor__form-decoration-02 {
+    right: 0;
+    top: 41%;
+}
+
 .find-doctor__card p {
     font-weight: 300;
+}
+
+.find-doctor__button button:hover {
+    color: white;
 }
