@@ -10,7 +10,7 @@ $container-max-widths: (
 
 $font-size-base: 1rem;
 $h1-font-size: $font-size-base * 3;
-$h2-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 2.25;
 $h3-font-size: $font-size-base * 1.75;
 $h4-font-size: $font-size-base * 1.5;
 $h5-font-size: $font-size-base * 1.25;
@@ -21,6 +21,8 @@ $secondary: #7D7987;
 $btn-padding-x-lg: 2.5rem;
 $btn-padding-y-lg: 0.9rem;
 $btn-font-size-lg: 1.125rem;
+
+$card-border-radius: 1.25rem; 
 
 
 @import "../libs/bootstrap/scss/bootstrap.scss";
@@ -41,3 +43,11 @@ $btn-font-size-lg: 1.125rem;
     line-height: 2rem;
 }
 
+.find-doctor__info p {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.find-doctor__card p {
+    font-weight: 300;
+}
