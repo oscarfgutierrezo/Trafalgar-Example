@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg p-0 navbar-light">
-            <div class="container py-2 my-3 my-lg-5">
+            <div class="container py-2 my-3">
                 <a class="navbar-brand p-0" href="#">
                   <img src="./public/images/logo.png" alt="Logo Trafalgar">
                 </a>
@@ -26,7 +26,7 @@
                             <a class="nav-link pe-0 ps-4" href="#find-doctor">Find a doctor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pe-0 ps-4" href="#">Apps</a>
+                            <a class="nav-link pe-0 ps-4" href="#apps">Apps</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pe-0 ps-4" href="#">Testimonials</a>
@@ -39,34 +39,36 @@
             </div>
         </nav>
     </header>
+    <div class="py-3 py-lg-4"></div>
     <main>
         <section class="home" id="home">
             <img class="home__img-decoration position-absolute" src="./public/images/home-decoration.svg" alt="Imagen con puntos para decorar">
-            <div class="home__container container my-3 py-2 mb-xxl-5 pb-xxl-5">
+            <div class="home__container container my-3 py-2">
                 <div class="row">
-                    <div class="home__img col-md-6 col-lg-7 order-md-2 d-flex">
-                        <img class="img-fluid ms-xxl-5" src="./public/images/home-ilustration.svg" alt="Ilustración sobre atención médica">
+                    <div class="home__img col-sm-9 mx-auto mx-lg-0 ps-xl-5 col-lg-7 offset-lg-1 order-lg-2 d-flex justify-content-center">
+                        <img class="img-fluid" src="./public/images/home-ilustration.svg" alt="Ilustración sobre atención médica">
                     </div>
-                    <div class="home__info col-md-6 col-lg-5 mt-4 d-flex flex-column justify-content-center text-center text-md-start">
+                    <div class="home__info mt-4 col-lg-5 d-flex flex-column justify-content-center text-center text-lg-start align-items-center">
                         <h1 class="mb-4 pe-xxl-5 fw-bold">Virtual healthcare for you</h1>
                         <p class="text-secondary mb-4 mb-lg-5">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                        <button class="btn btn-lg btn-primary text-white fw-bold rounded-pill me-md-auto">Consult today</button>
+                        <button class="btn btn-lg btn-primary text-white fw-bold rounded-pill me-lg-auto">Consult today</button>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="py-4 py-xl-5 mt-xxl-5 mb-xxl-4"></div>
         <section class="find-doctor" id="find-doctor">
-            <div class="find-doctor__info container pt-4 pt-xxl-5 text-center">
-                <h2 class="mt-xxl-4 pt-xxl-4 py-2 fw-bold text-dark">Our services</h2>
+            <div class="find-doctor__info container text-center">
+                <h2 class="py-2 fw-bold text-dark">Our services</h2>
                 <hr class="border border-dark opacity-100 mx-auto" style="width: 3.5rem;">
-                <p class="text-secondary col-10 mx-auto p-3 ">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
+                <p class="text-secondary col-xl-10 mx-xl-auto p-3 ">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             </div>
             <div class="find-doctor__cards container py-3 py-xxl-5 position-relative">
-                <img class="find-doctor__form-decoration position-absolute opacity-50" src="./public/images/cards-decoration.svg" alt="figura decorativa">
+                <img class="img-fluid find-doctor__form-decoration position-absolute opacity-50" src="./public/images/cards-decoration.svg" alt="figura decorativa">
                 <img class="find-doctor__form-decoration-02 position-absolute" src="./public/images/cards-decoration-points.svg" alt="figura decorativa">
                 <div class="row gap-3 gap-xxl-5 justify-content-center">
                     <div class="col-auto p-0">
-                        <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
+                        <div class="find-doctor__card card py-5 px-4" style="min-width: 20rem; max-width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/search-doctor.svg" class="px-2 mb-4" style="height: 90px;" alt="Imagen de lupa">
                             </div>
@@ -77,7 +79,7 @@
                         </div>
                     </div>
                     <div class="col-auto p-0">
-                        <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
+                        <div class="find-doctor__card card py-5 px-4" style="min-width: 20rem; max-width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/online-pharmacy.svg" class="px-2 mb-4" style="height: 85px;" alt="Imagen de lupa">
                             </div>
@@ -88,7 +90,7 @@
                         </div>
                     </div>
                     <div class="col-auto p-0">
-                        <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
+                        <div class="find-doctor__card card py-5 px-4" style="min-width: 20rem; max-width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/consultation.svg" class="px-2 mb-4" style="height: 95px;" alt="Imagen de lupa">
                             </div>
@@ -99,7 +101,7 @@
                         </div>
                     </div>
                     <div class="col-auto p-0">
-                        <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
+                        <div class="find-doctor__card card py-5 px-4" style="min-width: 20rem; max-width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/details-info.svg" class="px-2 mb-4" style="height: 95px;" alt="Imagen de lupa">
                             </div>
@@ -110,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-auto p-0">
-                        <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
+                        <div class="find-doctor__card card py-5 px-4" style="min-width: 20rem; max-width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-center" style="height: 50%;">
                                 <img src="./public/images/emergency-care.svg" class="px-2 mb-4" style="height: 71px;" alt="Imagen de lupa">
                             </div>
@@ -121,7 +123,7 @@
                         </div>
                     </div>
                     <div class="col-auto p-0">
-                        <div class="find-doctor__card card py-5 px-4" style="width: 21.875rem; height: 22rem;">
+                        <div class="find-doctor__card card py-5 px-4" style="min-width: 20rem; max-width: 21.875rem; height: 22rem;">
                             <div class="d-flex align-items-end" style="height: 50%;">
                                 <img src="./public/images/tracking.svg" class="px-2 mb-4" style="height: 95px;" alt="Imagen de lupa">
                             </div>
@@ -133,8 +135,38 @@
                     </div>
                 </div>
             </div>
-            <div class="find-doctor__button d-flex">
-                <button class="btn btn-lg btn-outline-primary rounded-pill fw-bold my-3 mx-auto">Learn more</button>
+            <div class="find-doctor__button my-3 d-flex">
+                <button class="btn btn-lg btn-outline-primary rounded-pill fw-bold mx-auto">Learn more</button>
+            </div>
+        </section>
+        <div class="py-5 py-lg-5 my-xxl-5"></div>
+        <section class="apps" id="apps">
+            <div class="apps__container container">
+                <div class="apps__providers row mb-xl-5">
+                    <div class="apps__providers-img col-lg-6 d-flex ">
+                        <img class="img-fluid" src="./public/images/apps__providers.svg" alt="ilustracion sobre atención médica">
+                    </div>
+                    <div class="apps__providers-info col-lg-5 col-xl-4 offset-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+                        <h2 class="fw-bold">Leading healthcare providers</h2>
+                        <hr class="my-4 border border-dark opacity-100" style="width: 3.5rem;">
+                        <p class="text-secondary mt-2 mb-5">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver</p>
+                        <button class="btn btn-lg btn-outline-primary rounded-pill fw-bold me-lg-auto">Learn more</button>
+                    </div>
+                </div>
+                <div class="py-5 my-xxl-5"></div>
+                <div class="apps__download row">
+                    <div class="apps__download-img col-lg-6 offset-xl-1 order-lg-2 d-flex">
+                        <img class="img-fluid" src="./public/images/apps__download.svg" alt="ilustración sobre atención médica">
+                    </div>
+                    <div class="apps__dowload-info col-lg-5 col-xl-4 offset-lg-1 d-flex flex-column justify-content-center align-items-lg-start align-items-center text-center text-lg-start">
+                        <h2 class="fw-bold mt-4 pe-lg-5">Download our mobile apps</h2>
+                        <hr class="my-4 border border-dark opacity-100" style="width: 3.5rem;">
+                        <p class="text-secondary mt-2 mb-5">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
+                        <button class="btn btn-lg btn-outline-primary rounded-pill fw-bold me-lg-auto d-flex gap-3 align-items-center">Download
+                            <img class="button-arrow" src="./public/images/arrow-down.png" alt="flecha hacia abajo">
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
     </main> 

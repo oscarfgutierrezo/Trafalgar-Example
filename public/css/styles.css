@@ -12518,6 +12518,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h2, .h2 {
+  line-height: 3.5rem;
+}
+
 .header .navbar-nav {
   font-size: 1.125rem;
 }
@@ -12532,7 +12536,7 @@ textarea.form-control-lg {
   line-height: 2rem;
 }
 
-.find-doctor__info p {
+.find-doctor__info p, .apps__providers-info p, .apps__dowload-info p {
   font-size: 1.125rem;
   font-weight: 300;
 }
@@ -12551,6 +12555,11 @@ textarea.form-control-lg {
   font-weight: 300;
 }
 
-.find-doctor__button button:hover {
+.btn-outline-primary:hover {
   color: white;
+}
+
+.apps__dowload-info .btn-outline-primary:hover > .button-arrow {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }/*# sourceMappingURL=styles.css.map */

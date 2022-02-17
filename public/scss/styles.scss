@@ -31,6 +31,10 @@ $card-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&family=Mulish:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
+h2 {
+    line-height: 3.5rem;
+}
+
 .header .navbar-nav {
     font-size: 1.125rem;
 }
@@ -45,7 +49,7 @@ $card-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     line-height: 2rem;
 }
 
-.find-doctor__info p {
+.find-doctor__info p, .apps__providers-info p, .apps__dowload-info p {
     font-size: 1.125rem;
     font-weight: 300;
 }
@@ -64,6 +68,12 @@ $card-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     font-weight: 300;
 }
 
-.find-doctor__button button:hover {
+.btn-outline-primary:hover {
     color: white;
 }
+
+.apps__dowload-info .btn-outline-primary:hover > .button-arrow {
+    filter: brightness(0) invert(1);
+}
+
+
