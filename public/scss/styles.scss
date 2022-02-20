@@ -13,7 +13,7 @@ $h1-font-size: $font-size-base * 3;
 $h2-font-size: $font-size-base * 2.25;
 $h3-font-size: $font-size-base * 1.75;
 $h4-font-size: $font-size-base * 1.5;
-$h5-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.375;
 
 $primary: #458FF6;
 $secondary: #7D7987;
@@ -27,9 +27,20 @@ $card-border-radius: 1.25rem;
 $card-border-width: 0; 
 $card-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 
+$carousel-control-prev-icon-bg: url('../images/arrow-left.png');
+$carousel-control-next-icon-bg: url('../images/arrow-right.png');
+$carousel-control-icon-width: 28px;
+$carousel-indicator-width: 10px;
+$carousel-indicator-height: 10px;
+$carousel-indicator-spacer: 9px;
+$carousel-indicator-active-bg: $primary;
+
+
 @import "../libs/bootstrap/scss/bootstrap.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&family=Mulish:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
 
 h2 {
     line-height: 3.5rem;
@@ -76,4 +87,39 @@ h2 {
     filter: brightness(0) invert(1);
 }
 
+.testimonials__carousel-bg {
+    background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px
+}
+
+.testimonials__user-info p {
+    font-size: 1.1875rem;
+    opacity: 0.9;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.testimonials__user-info span {
+    font-size: 1.125rem;
+    font-weight: 400;
+    opacity: 0.85;
+}
+
+.testimonials__form-decoration {
+    right: -3rem;
+    top: -1rem;
+}
+
+@media (max-width: 575px) {
+    .testimonials__carousel-bg {
+        height: 80vh;
+    }
+    .testimonials__user-info {
+        height: calc(100% - 185px);
+        overflow: auto;
+    }
+    h2 {
+        line-height: 1.5;
+    }
+}
 
