@@ -151,7 +151,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -8469,7 +8469,7 @@ textarea.form-control-lg {
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.25rem !important;
 }
 
 .fst-italic {
@@ -12591,9 +12591,48 @@ h2, .h2 {
   opacity: 0.85;
 }
 
+.apps__form-decoration {
+  right: -3rem;
+  top: calc(50% - 57px);
+}
+
 .testimonials__form-decoration {
+  top: 55%;
+  left: -3%;
+}
+
+.testimonials-bg__form-decoration {
   right: -3rem;
   top: -1rem;
+}
+
+.about-us__form-decoration {
+  right: 0;
+  bottom: 25%;
+}
+
+.about-us__form-decoration-02 {
+  left: -1.5rem;
+  top: 6rem;
+}
+
+.footer__bg {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer__inf p, .footer__links a {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.footer__decoration-01 {
+  top: -5rem;
+  right: 6%;
+}
+
+.footer__decoration-02 {
+  left: -1%;
+  bottom: -4%;
 }
 
 @media (max-width: 575px) {

@@ -140,7 +140,8 @@
             </div>
         </section>
         <div class="py-5 mt-xxl-5 mb-xxl-4"></div>
-        <section class="apps" id="apps">
+        <section class="apps position-relative overflow-hidden" id="apps">
+            <img class="apps__form-decoration position-absolute" src="./public/images/cards-decoration-points.svg" alt="imagen de decoración">
             <div class="apps__container container">
                 <div class="apps__providers row mb-xl-5">
                     <div class="apps__providers-img col-lg-6 d-flex ">
@@ -171,12 +172,13 @@
         </section>
         <div class="py-5 py-lg-5 my-xxl-5"></div>
         <section class="testimonials" id="testimonials">
-            <div class="container">
+            <div class="container  position-relative">
+                <img class="testimonials__form-decoration position-absolute" src="./public/images/cards-decoration-points.svg" alt="imagen de decoración">
                 <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <div class="testimonials__carousel-bg  position-relative text-white p-3 py-xxl-5 px-md-5">
-                                <img class="testimonials__form-decoration d-none d-lg-block position-absolute" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
+                            <div class="testimonials__carousel-bg  position-relative text-white p-3 pt-xxl-5 px-md-5">
+                                <img class="testimonials-bg__form-decoration d-none d-lg-block position-absolute" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
                                 <div class="testimonials__title my-4">
                                     <h2 class="text-center fw-bold lh-sm">What our customer are saying</h2>
                                     <hr class="border border-white opacity-100 mx-auto" style="width: 3.5rem;">
@@ -198,8 +200,8 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
-                            <div class="position-relative testimonials__carousel-bg text-white p-3 py-xxl-5 px-md-5">
-                                <img class="testimonials__form-decoration d-none d-lg-block position-absolute" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
+                            <div class="position-relative testimonials__carousel-bg text-white p-3 pt-xxl-5 px-md-5">
+                                <img class="testimonials-bg__form-decoration d-none d-lg-block position-absolute" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
                                 <div class="testimonials__tittle my-4">
                                     <h2 class="text-center fw-bold lh-sm">What our customer are saying</h2>
                                     <hr class="border border-white opacity-100 mx-auto" style="width: 3.5rem;">
@@ -221,8 +223,8 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
-                            <div class="position-relative testimonials__carousel-bg text-white p-3 py-xxl-5 px-md-5">
-                                <img class="testimonials__form-decoration d-none d-lg-block position-absolute" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
+                            <div class="position-relative testimonials__carousel-bg text-white p-3 pt-xxl-5 px-md-5">
+                                <img class="testimonials-bg__form-decoration d-none d-lg-block position-absolute" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
                                 <div class="testimonials__tittle my-4">
                                     <h2 class="text-center fw-bold lh-sm">What our customer are saying</h2>
                                     <hr class="border border-white opacity-100 mx-auto" style="width: 3.5rem;">
@@ -263,14 +265,16 @@
             </div>
         </section>
         <div class="py-5 my-xxl-5"></div>
-        <section class="about-us" id="about-us">
-            <div class="container text-center">
+        <section class="about-us position-relative" id="about-us">
+            <img class="about-us__form-decoration position-absolute opacity-50 d-none d-md-block" src="./public/images/about-us__decoration.svg" alt="imagen de decoración">
+            <div class="container position-relative text-center">
+                <img class="about-us__form-decoration-02 position-absolute d-none d-md-block" src="./public/images/cards-decoration-points.svg" alt="imagen de decoración">
                 <h2 class="fw-bold">Check out our latest article</h2>
                 <hr class="my-4 mb-lg-5 border border-dark opacity-100 mx-auto" style="width: 3.5rem;">
                 <div class="about-us__cards pt-3 mb-5 row gap-3 gap-xl-4 gap-xxl-5 justify-content-center">
                     <div class="about-us__card card col p-0" style="min-width: 20rem; max-width: 22rem;">
                         <img src="./public/images/about-us__card01.png" class="card-img-top" alt="imagen de extracción de sangre en brazo">
-                        <div class="card-body text-start py-4 pe-5">
+                        <div class="card-body text-start py-4 ps-4 pe-5">
                             <h5 class="card-title fw-bold mb-3 lh-base">Disease detection, check up in the laboratory</h5>
                             <p class="card-text text-secondary mb-4 lh-base">In this case, the role of the health laboratory is very important to do a disease detection...</p>
                             <a href="#" class="d-flex align-items-center fw-bold text-decoration-none mb-4">Read more
@@ -280,7 +284,7 @@
                     </div>
                     <div class="about-us__card card col p-0" style="min-width: 20rem; max-width: 22rem;">
                         <img src="./public/images/about-us__card02.png" class="card-img-top" alt="investigador observando a través de un microscopio">
-                        <div class="card-body text-start py-4 pe-5">
+                        <div class="card-body text-start py-4 ps-4 pe-5">
                             <h5 class="card-title fw-bold mb-3 lh-base">Herbal medicines that are safe for consumption</h5>
                             <p class="card-text text-secondary mb-4 lh-base">Herbal medicine is very widely used at this time because of its very good for your health...</p>
                             <a href="#" class="d-flex align-items-center fw-bold text-decoration-none mb-4">Read more
@@ -290,7 +294,7 @@
                     </div>
                     <div class="about-us__card card col p-0" style="min-width: 20rem; max-width: 22rem;">
                         <img src="./public/images/about-us__card03.png" class="card-img-top" alt="mujer acostada con mascarilla">
-                        <div class="card-body text-start py-4 pe-5">
+                        <div class="card-body text-start py-4 ps-4 pe-5">
                             <h5 class="card-title fw-bold mb-3 lh-base">Natural care for healthy facial skin</h5>
                             <p class="card-text text-secondary mb-4 lh-base">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
                             <a href="#" class="d-flex align-items-center fw-bold text-decoration-none mb-4">Read more
@@ -302,8 +306,74 @@
                 <button class="btn btn-outline-primary btn-lg mt-lg-5 rounded-pill fw-bold">View all</button>
             </div>
         </section>
-        <div class="py-5 my-xxl-5"></div>
-    </main> 
+    </main>
+    <div class="py-5 my-xxl-5"></div>
+    <footer class="footer position-relative">
+        <img class="footer__decoration-01 position-absolute" src="./public/images/cards-decoration-points.svg" alt="imagen de decoración">
+        <div class="footer__bg position-relative py-5">
+            <img class="footer__decoration-02 position-absolute d-none d-xl-block" src="./public/images/testimonials-decoration01.svg" alt="imagen de decoración">
+            <div class="container py-xl-5 row row-cols-1 row-cols-lg-2 mx-auto align-items-center">
+                <div class="footer__inf col col-lg-5 mb-5 mb-lg-0 pe-lg-5 text-center text-lg-start text-white">
+                    <img class="mb-3" src="./public/images/footer-logo.svg" alt="Logo de Trafalgar" style="width: 10rem;">
+                    <p class="mb-4">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                    <p class="mb-0">©Trafalgar PTY LTD 2020. All rights reserved</p>
+                </div>
+                <div class="footer__links col row row-cols-3 mx-auto justify-content-center justify-content-sm-around text-white">
+                    <div class="footer__links-company col-auto mb-4 mb-sm-0">
+                        <h6 class="mb-3 mb-lg-4 fw-bold">Company</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#about-us">About</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#find-doctor">Find a doctor</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#apps">Apps</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__links-region col-auto">
+                        <h6 class="mb-3 mb-lg-4 fw-bold">Region</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Indonesia</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Singapore</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Hong Kong</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Canada</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__links-help col-auto">
+                        <h6 class="mb-3 mb-lg-4 fw-bold">Help</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Help center</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Contact support</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">Instructions</a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="text-white text-decoration-none" href="#">How it works</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
     <script src="./public/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
