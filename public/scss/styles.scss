@@ -144,6 +144,18 @@ h2 {
     font-weight: 300;
 }
 
+@media (max-width: 575px) {
+    .footer__links h6 {
+        font-size: 1rem;
+    }
+    .footer__links li {
+        line-height: 1.1;
+    }
+    .footer__links a {
+        font-size: 0.875rem;
+    }
+}
+
 .footer__decoration-01 {
     top: -5rem;
     right: 6%;
